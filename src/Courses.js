@@ -4,11 +4,11 @@ import Course from './Course'
 function Courses( {courses1,DeleteCourse2} ) {
     
   return (
-    <div>
+    <div className='maindiv'>
       <div>
-        <h2>Kurslarim</h2>
+        <h2 className='kurslarim'>Kurslarim</h2>
       </div>
-      <div>
+      <div className='genel'>
     {
       courses1.map((course2)=>{
 

@@ -22,15 +22,22 @@ const fetchCourse = async () => {
   
   const response = await axios.get('http://localhost:3000/courses'); 
   setCourses(response.data);
-  debugger;
   
-}; //fetchCourse ile olusturdugumuz json serverinden veri cekiyoruz
+  
+}; 
+//fetchCourse ile olusturdugumuz json serverinden veri cekiyoruz
+
+
 
   useEffect(()=>{
-   fetchCourse();
+    fetchCourse();
+   
+   
   },[]);
   return (
     <div className="App">
+
+      
       <Courses courses1={courses} DeleteCourse2={DeleteCourse3}/>
     </div>
   );
