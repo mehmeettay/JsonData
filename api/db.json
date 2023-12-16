@@ -1,0 +1,35 @@
+{
+    "courses":[
+        {
+            "id" :1,
+            "content":"Angular kursu Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "title":"Angular",
+            "price":79
+        },
+        {
+            "id" :2,
+            "content":"Bootstrap kursu Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "title":"Bootstrap",
+            "price":89
+        },
+        {
+            "id" :3,
+            "content":"Java kursu Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "title":"Java",
+            "price":99
+        },
+        {
+            "id" :4,
+            "content":"Html kursu Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "title":"Html",
+            "price":109
+        },
+        {
+            "id" :5,
+            "content":"C Programlama Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "title":"C Programlama",
+            "price":119
+        }
+
+    ]
+}
